@@ -1,7 +1,7 @@
 # Web ☁️ Development
 ---
 
----
+
 
 # 👊 JS vs Java
 ---
@@ -34,13 +34,13 @@ vs Java
 
 </small>
 
----
+
 
 # How to 💡 JavaScript
 ---
 This course 👈 **modern** JavaScript (ECMAScript)
 
----
+
 
 # Types 🎟
 ---
@@ -121,7 +121,7 @@ This course 👈 **modern** JavaScript (ECMAScript)
   * `Object.create(null)`
   * `JSON.stringify({}, null, 2)`
 
----
+
 
 # Variables & Scope 👀
 ---
@@ -146,7 +146,7 @@ This course 👈 **modern** JavaScript (ECMAScript)
 * examples
 * babel
 
----
+
 
 # Control Structures 🔁
 ---
@@ -165,7 +165,7 @@ This course 👈 **modern** JavaScript (ECMAScript)
 * only if function returns result of calling a function
 * optimation: recusrsion as fast as loops
 
----
+
 
 # Functions 📞
 ---
@@ -176,7 +176,7 @@ This course 👈 **modern** JavaScript (ECMAScript)
 * this
 * function objects
 
----
+
 
 # Inheritance
 # 👴 👨 👶
@@ -238,14 +238,14 @@ This course 👈 **modern** JavaScript (ECMAScript)
 * large project with big teams
 * static type controversy
 
----
+
 
 # Semicolons `;`
 ---
 * Automatic Semicolon Insertion (ASI)
 * danger! ☣️
 
----
+
 
 # Homework (Devoir)
 ---
