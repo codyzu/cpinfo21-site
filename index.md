@@ -18,7 +18,9 @@ Here you will find resources for the CPINFO-20 web dev course.
 
 <!-- ### 👪 [Group Activity Results](m1/group-activity) -->
 
-## <!--
+<!--
+
+---
 
 ## Module 2: APIs
 
@@ -86,4 +88,5 @@ Here you will find resources for the CPINFO-20 web dev course.
 - How do you deploy your site? Where is the source code stored? Do you have automatic tests?
 - Problems encountered
 - Comparison of the technologies with PHP, Java, C# or others
-- What would you do differently if you could do the project again? -->
+- What would you do differently if you could do the project again?
+-->
