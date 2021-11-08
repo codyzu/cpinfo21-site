@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Welcome to CPINFO-20 Web Development!
+# Welcome to CPINFO-21 Web Development!
 
 Here you will find resources for the CPINFO-20 web dev course.
 
