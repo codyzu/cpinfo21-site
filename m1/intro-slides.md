@@ -2,6 +2,7 @@
 ---
 
 
+
 # Introduction 👋
 ---
 
@@ -32,7 +33,7 @@ const me = {
 # ⚠️ Note
 Bring a USB drive 💾!!!
 
----
+
 
 # Module 1: JavaScript
 ---
