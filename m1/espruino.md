@@ -119,8 +119,8 @@ The SSD1306 OLED is a 128x64 resolution monochrome OLED display. It communicates
 1. The following code allows connecting to a wifi access point:
 
    ```javascript
-   const WIFI_NAME = "SSID";
-   const WIFI_OPTIONS = { password : "PASSWORD" };
+   const WIFI_NAME = "cpinfo";
+   const WIFI_OPTIONS = { password : "javascript" };
 
    let wifi;
    function connectWifi() {
