@@ -1,0 +1,5 @@
+title: CPINFO21 Web Development
+github:
+  private: true
+plugins:
+  - jekyll-redirect-from
