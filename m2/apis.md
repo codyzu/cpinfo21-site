@@ -37,29 +37,27 @@ The OpenWeather [One Call API](https://openweathermap.org/api/one-call-api) prov
    1. Annecy has a latitude of `45.89911` and longitude of `6.1287`, update your request to get the weather for Annecy.
 1. Note your _API key_ for later.
 
-## 2 Here geocoding 🌐 API
+## 2 Mapbox geocoding 🌐 API
 
 The OpenWeather API accepts an exact latitude and longitude coordinate for the weather forecast. If we want to get the weather forecast for location, like `Annecy` or `Lyon`, we need a way to get the geographic latitude and longitude for locations. This is called **geocoding**.
 
-[Here](https://www.here.com/) offers several location tools, including a **geocoding API**. With their freemium plan we can make 250000 requests per month for free.
+[Mapbox](https://www.mapbox.com/) offers several location and mapping tools, including a **forward geocoding API**. With their free plan we can make 100000 requests per month for free.
 
-### 2.1 Sign up for Here
-1. Go to https://developer.here.com/sign-up?create=Freemium-Basic and signup a freemium account.
-1. Accept the conditions and click _Start coding_.
-   ![here signup](images/here-signup.jpg)
-1. ⚠️ Verify your email in the received email message. _This is important to ensure your API keys don't expire!_
-1. Click the button _Generate App_ under the **REST** section.
-   ![here generate app](images/here-generate-app.png)
-1. Click on the button _Create API key_.
-   ![here generate api key](images/here-generate-keys.png)
-1. Once the keys are generated, copy the `API KEY`:
-   ![here api key](images/here-key.png)
+### 2.1 Sign up for Mapbox
 
-### 2.2 Call Here API
-1. The [here geocode api documentation](https://developer.here.com/documentation/geocoder/dev_guide/topics/quick-start-geocode.html) shows how we can make an api request.
-1. Open https://geocoder.ls.hereapi.com/6.2/geocode.json?apiKey={YOUR_API_KEY}&searchtext=annecy+france to see the geocode results for `Annecy, France`.
-1. Look into the response to find the `NavigationPosition` `Latitude` and `Longitude`.
+1. Go to [https://account.mapbox.com/auth/signup/](https://account.mapbox.com/auth/signup/) and signup for an account.
+1. ⚠️ Verify your email in the received email message (it could be in your spam folder)
+1. Follow the link in the email to your [account page](https://account.mapbox.com/)
+1. Copy the Default public token:
+   ![mapbox access token](images/mapbox-access-token.png)
+
+
+### 2.2 Call Mapbox API
+1. The [mapbox geocoding API documentation](https://docs.mapbox.com/api/search/geocoding/#forward-geocoding) shows how we can make an API request.
+1. Open [https://api.mapbox.com/geocoding/v5/mapbox.places/annecy.json?access_token={YOUR_ACCESS_TOKEN}](https://api.mapbox.com/geocoding/v5/mapbox.places/annecy.json?access_token={YOUR_ACCESS_TOKEN}) to see the geocode results for `Annecy`.
+1. Look into the response to find the `features[0].geometry.coordinates` to find the longitude and latitude.
 
 #### Exercise 2.1: What is the Latitude and Longitude of Lyon?
 
 #### Exercise 2.2: What is the Latitude and Longitude of your home address?
+
