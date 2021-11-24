@@ -20,6 +20,10 @@ npm install --save express
 ```
 👉 _Press enter for all of the `npm` questions._
 
+Open the directory in vscode. If prompted by vscode, trust the authors of the files in the folder:
+
+![vscode trust](images/vscode-trust.png)
+
 Create the file `app.js`:
 ```javascript
 const express = require('express');
