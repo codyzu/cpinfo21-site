@@ -21,7 +21,7 @@ When building a web application, you will most certainly need to call some APIs.
 The OpenWeather [One Call API](https://openweathermap.org/api/one-call-api) provides a 7 day weather forecast. The free account allows 1000 requests per day!
 
 ### 1.1 Sign up for OpenWeather API
-1. Go to https://home.openweathermap.org/users/sign_up and signup for a new account.
+1. Go to [https://home.openweathermap.org/users/sign_up](https://home.openweathermap.org/users/sign_up) and signup for a new account.
 1. Confirm your account with the email you received.
 1. Login to your account.
 
