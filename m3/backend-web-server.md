@@ -8,6 +8,9 @@ redirect_from: /m3
 
 <!-- TODO: add screenshots + notes for day 1 exercise -->
 
+<!-- TODO: switch this to esm modules? -->
+<!-- TODO: use the ?. operator to remove lodash -->
+
 ## 1 Express hello world
 
 ```bash
@@ -147,10 +150,12 @@ Inside our route handler, we can then access the value of the variable inside `r
 
 Install [node-fetch](https://github.com/node-fetch/node-fetch) into your project:
 ```cmd
-npm install --save node-fetch
+npm install --save node-fetch@2
 ```
 
-node-fetch will let us call other APIs.
+ℹ️ The `@2` installs the version 2 of `node-fetch`, that is compatible with commonjs.
+
+`node-fetch` will let us call other APIs.
 
 Add node-fetch to the require statements at the top of `app.js`:
 ```javascript
@@ -189,10 +194,6 @@ app.get('/testasync', async (req, res) => {
   1. fetch the geographical latitude and longitude from the **here API**
   2. parse the longitude and latitude from the response
   3. fetch the weather for the longitude and latitude with the **OpenWeather API**
-* [lodash](https://lodash.com/) is javascript library with helpful utilities. The lodsah [`get` function](https://lodash.com/docs/#get) will be helpful to parse the latitude/longitude and the daily forecast from the API responses:
-  * Install it `npm install --save lodash`
-  * Require it `const _ = require('lodash');`
-  * Use it `_.get(/* ... */);`
 * Remember that pug can iterate over an array of values by using the [`each`](https://pugjs.org/language/iteration.html#each) keyword (i.e. you should iterate over the 7 forecast days)
 * The timestamps inside the OpenWeather weather response are in Linux epoch seconds time. JavaScript works with milliseconds. We can parse and format a seconds timestamp like this:
   ```javascript
@@ -206,8 +207,8 @@ app.get('/testasync', async (req, res) => {
       p The time is #{new Date(time * 1000).toLocaleString()}
   ```
   💡Alternatively, you can use [moment.js](https://momentjs.com/) to parse and format date and times.
-* 🚀 **BONUS**: Consider adding some fancy icons like [feather icons](https://feathericons.com/). Here is an example pug template with an icon:
-  ```text
+* 🚀 **BONUS**: Consider adding some fancy icons! Openweathermap has icon codes and built in icons: https://openweathermap.org/weather-conditions#How-to-get-icon-URL
+  <!-- ```text
   html
   head
     script(src='https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js')
@@ -218,7 +219,7 @@ app.get('/testasync', async (req, res) => {
       | Today it is raining!
 
     script feather.replace({width: '1em', height: '1em'})
-  ```
+  ``` -->
 * 🚀 **BONUS**: Consider add some style with CSS:
   * You can do ["inline" styling in pug](https://pugjs.org/language/attributes.html#style-attributes) if you are a CSS guru.
   * Alternatively, consider adding [bootstrap](https://getbootstrap.com/) (or another CSS library) to do something fancy!

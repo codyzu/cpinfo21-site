@@ -18,8 +18,6 @@ Here you will find resources for the CPINFO-20 web dev course.
 
 <!-- ### 👪 [Group Activity Results](m1/group-activity) -->
 
-<!--
-
 ---
 
 ## Module 2: APIs
@@ -31,6 +29,8 @@ Here you will find resources for the CPINFO-20 web dev course.
 ## Module 3: Web Server
 
 ### 👩‍🔧 [Exercise 3.0: Backend Web Service](m3/backend-web-server.html)
+
+<!--
 
 ---
 
