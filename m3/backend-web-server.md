@@ -208,7 +208,9 @@ app.get('/testasync', async (req, res) => {
   ```
   💡Alternatively, you can use [moment.js](https://momentjs.com/) to parse and format date and times.
 * 🚀 **BONUS**: Consider adding some fancy icons! Openweathermap has icon codes and built in icons: https://openweathermap.org/weather-conditions#How-to-get-icon-URL
-  <!-- ```text
+
+<!--
+```text
   html
   head
     script(src='https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js')
@@ -219,7 +221,9 @@ app.get('/testasync', async (req, res) => {
       | Today it is raining!
 
     script feather.replace({width: '1em', height: '1em'})
-  ``` -->
+  ```
+-->
+
 * 🚀 **BONUS**: Consider add some style with CSS:
   * You can do ["inline" styling in pug](https://pugjs.org/language/attributes.html#style-attributes) if you are a CSS guru.
   * Alternatively, consider adding [bootstrap](https://getbootstrap.com/) (or another CSS library) to do something fancy!
