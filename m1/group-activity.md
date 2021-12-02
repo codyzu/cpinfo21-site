@@ -4,7 +4,7 @@ title: Java vs JavaScript
 
 # 1 Java vs JavaScript
 
-![java vs javascript](images/java-vs-js.jpg)
+![java vs javascript](images/group1.jpg)
 
 | |java|javascript|
 |-|-|-|
@@ -50,7 +50,7 @@ title: Java vs JavaScript
 
 # 3 Types in JavaScript
 
-![js types](images/js-types.jpg)
+![js types](images/group3.jpg)
 
 **📢 JavaScript is dynamically typed 🚨**
 
@@ -91,7 +91,7 @@ Inheritance:
 
 # 4 What is npm
 
-![npm](images/npm.jpg)
+![npm](images/group2.jpg)
 
 * npm registry is a public registry of node.js packages
 * npm cli tool is a tool to install/manage packages from the registry
@@ -99,7 +99,7 @@ Inheritance:
 
 # 5 SQL vs NoSQL 🤜💥🤛
 
-![node.js](images/sql-vs-nosql.jpg)
+<!-- ![node.js](images/sql-vs-nosql.jpg) -->
 
 <style>
 th, td {
