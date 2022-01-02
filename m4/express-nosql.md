@@ -24,7 +24,7 @@ https://www.iut-acy.univ-smb.fr/ 👉 Intranet 👉 Resources Informatiques 👉
 
 1. Click "Create project".
 
-1. In the firebase web console, navigate to Database and click "Create Database"
+1. In the firebase web console, navigate to "Firestore Database" and click "Create Database"
 
    ![create database](images/firebase-firestore.png)
 
