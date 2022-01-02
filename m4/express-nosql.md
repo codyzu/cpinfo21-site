@@ -7,7 +7,7 @@ title: Adding Cloud Firestore to Express
 
 ⚠️ ⚠️ You must use your IUT Google account for you coupon to work ⚠️ ⚠️
 
-https://www.iut-acy.univ-smb.fr/ 👉 Intranet 👉 Ressources Informatiques 👉 Offres Logiciel 👉 Plateforme Google
+https://www.iut-acy.univ-smb.fr/ 👉 Intranet 👉 Resources Informatiques 👉 Offres Logiciel 👉 Plateforme Google
 
 ## 1 Adding admin access to Firestore to express
 

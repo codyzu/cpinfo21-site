@@ -107,7 +107,7 @@ There is an existing Firestore DB with single "countries" collection. Here is an
 
 ## 2.1 Node.js setup
 
-Setup a *new* project to do queries (do not add this to our express.js project):
+Setup a *new* project to do queries (**do not add this to our express.js project**):
 
 1. Create a **new** node.js project named `countries`:
    ```cmd
@@ -122,7 +122,7 @@ Setup a *new* project to do queries (do not add this to our express.js project):
 1. Install the firebase client library:
    
    ```cmd
-   npm install --save firebase
+   npm install firebase@8.10.0 --save
    ```
 1. Open your project directory in vscode
 1. Create a new file in your project named `countries.js` with the following:
