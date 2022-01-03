@@ -30,8 +30,6 @@ Here you will find resources for the CPINFO-20 web dev course.
 
 ### 👩‍🔧 [Exercise 3.0: Backend Web Service](m3/backend-web-server.html)
 
-<!--
-
 ---
 
 ## Module 4: NoSQL
@@ -39,6 +37,8 @@ Here you will find resources for the CPINFO-20 web dev course.
 ### 👩‍🔧 [NoSQL Queries](m4/nosql-queries)
 
 ### 👩‍🔧 [Adding Firestore to Express](m4/express-nosql)
+
+<!--
 
 ---
 
@@ -57,6 +57,8 @@ Here you will find resources for the CPINFO-20 web dev course.
 - ### [Module 4: NoSQL](m1/group-activity#5-sql-vs-nosql-)
   - Advantages / Disadvantages
 
+-->
+<!--
 ---
 
 ## Module 5: React

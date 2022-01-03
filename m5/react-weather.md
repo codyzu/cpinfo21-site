@@ -3,6 +3,8 @@ title: Module 5 - React
 redirect_from: /m5
 ---
 
+<!-- TODO: does bootstrap still need jquery and popper? -->
+
 # Module 5 - React weather interface
 
 ⛈👀 See it live at [weather.codyfactory.eu](https://weather.codyfactory.eu)
@@ -262,7 +264,7 @@ Next we will add the 2 components that will make up our app: `<SearchBar>` and `
    ```jsx
    const Forecast = props => (
      <div>
-       {props.weather.daily.map(day => (
+       {props.weather.map(day => (
          <p>
            {day.temp.max} {day.weather[0].description}
          </p>
@@ -286,12 +288,10 @@ Next we will add the 2 components that will make up our app: `<SearchBar>` and `
    // const Forecast = ...
 
    const App = () => {
-     const testData = {
-       daily: [
-         { temp: {max: 10}, weather: [{description:  "cloudy and cold"}] },
-         { temp: {max: 12}, weather: [{description: "sunny and warm"}] }
-       ]
-     };
+   const testData = [
+     {temp: {max: 10}, weather: [{description: "cloudy and cold"}]},
+     {temp: {max: 12}, weather: [{description: "sunny and warm"}]},
+   ];
 
      return (
        <div>
@@ -308,7 +308,7 @@ Next we will add the 2 components that will make up our app: `<SearchBar>` and `
 
 1. Test your changes in Chrome, it should result the following:
 
-   ![forecast](./images/forecast-stubbed.jpg)
+   ![forecast](./images/forecast-stubbed.png)
 
 ## 8 State
 
@@ -521,15 +521,15 @@ Functionally, our weather app is working, but it is _still **ugly**_! We can eas
 
 Or we can use some **preconfigured styling**.
 
-[Bootstrap]() from twitter provides some excellent CSS templates. We will only use some of the form styling, but Bootstrap offers so much more.
+[Bootstrap](https://getbootstrap.com/) from twitter provides some excellent CSS templates. We will only use some of the form styling, but Bootstrap offers so much more.
 
 1. Add some more dependencies to our project.
 
    ```cmd
-   npm install --save bootstrap jquery popper.js
+   npm install --save bootstrap @popperjs/core
    ```
 
-   - Bootstrap requires [jquery](https://jquery.com/) and [popper.js](https://popper.js.org/), but they are not installed automatically. Therefor, we must install them explicitly.
+   - Bootstrap requires [popper.js](https://popper.js.org/), but it is not installed automatically. Therefor, we must install it explicitly.
 
 1. Add bootstrap to `src/index.js`:
 
@@ -547,27 +547,36 @@ Or we can use some **preconfigured styling**.
      // ...
 
      return (
-       <form onSubmit={handleSubmit} className="form-inline">
-         <input
-           type="text"
-           className="form-control"
-           placeholder="City"
-           onChange={e => debounceSearch(e.target.value)}
-         />
-         <button type="submit" className="btn btn-primary">
-           Search
-         </button>
+       <form onSubmit={handleSubmit}>
+         <div className="container-fluid">
+           <div className="row align-items-center">
+             <div className="col-auto">
+               <input
+                 type="text"
+                 placeholder="City"
+                 value={city}
+                 onChange={handleCityChange}
+                 className="form-control"
+               />
+             </div>
+             <div className="col-auto">
+               <button type="submit" className="btn btn-primary col-auto">
+                 Search
+               </button>
+             </div>
+           </div>
+         </div>
        </form>
      );
    };
    ```
 
    - 👓 Note the use of the `className` properties in `<form>`, `<input>`, and `<button>`.
-   - Refer the [Bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) for reference on how the styling works.
+   - Refer the [Bootstrap documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/) for reference on how the styling works.
 
-1. Observe the calculator in Chrome. There should be some beautiful style:
+1. Observe the weather app in Chrome. There should be some beautiful style:
 
-   ![calculator with bootstrap](./images/forecast-bootstrap.jpg)
+   ![forecast with bootstrap](./images/forecast-bootstrap.jpg)
 
 #### Exercise 13.1: Modify the CSS classes to give the app some beautiful style.
 
