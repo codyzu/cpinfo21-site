@@ -38,8 +38,7 @@ Here you will find resources for the CPINFO-20 web dev course.
 
 ### 👩‍🔧 [Adding Firestore to Express](m4/express-nosql)
 
-
-<!-- ---
+---
 
 ## Exam 1 📝
 
@@ -55,7 +54,7 @@ Here you will find resources for the CPINFO-20 web dev course.
   - Add a route with a URL parameter
 - ### [Module 4: NoSQL](m1/group-activity#5-sql-vs-nosql-)
   - Advantages / Disadvantages
- -->
+
 
 <!--
 ---
