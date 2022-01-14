@@ -88,7 +88,7 @@ Use your express weather app from the previous course.
 
    ```cmd
    cd ..
-   npx create-react-app weather-app
+   npm init react-app weather-app
    ```
 
    You should now have 2 _separate_ projects:
