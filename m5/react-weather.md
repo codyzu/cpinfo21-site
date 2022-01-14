@@ -86,6 +86,7 @@ Use your express weather app from the previous course.
 
 1. From the **parent** directory of the `weather` project, create a **new** react project for the weather interface:
 
+  <!-- TODO: consider `npm init react-app weather-app` -->
    ```cmd
    cd ..
    npm init react-app weather-app
