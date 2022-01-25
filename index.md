@@ -4,7 +4,7 @@ title: Home
 
 # Welcome to CPINFO-21 Web Development!
 
-Here you will find resources for the CPINFO-20 web dev course.
+Here you will find resources for the CPINFO-21 web dev course.
 
 ---
 
