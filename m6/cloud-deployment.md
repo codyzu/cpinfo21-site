@@ -113,7 +113,7 @@ The weather API that we created will be deployed to a Serverless Function. We wi
    In `functions/package.json` modify the `engines` entry:
    ```
    "engines": {
-     "node": "14"
+     "node": "16"
    },
    ```
 
