@@ -61,6 +61,12 @@ Here you will find resources for the CPINFO-21 web dev course.
 
 ### 👩‍🔧 [React](m5/react-weather)
 
+---
+
+## Final Exam
+
+### ☑️ [Vote](vote.cpinfo21.codyfactory.eu)
+
 <!--
 
 ---
