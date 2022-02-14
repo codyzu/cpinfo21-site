@@ -65,7 +65,7 @@ Here you will find resources for the CPINFO-21 web dev course.
 
 ## Final Exam
 
-### ☑️ [Vote](vote.cpinfo21.codyfactory.eu)
+### ☑️ [Vote](https://vote.cpinfo21.codyfactory.eu)
 
 <!--
 
