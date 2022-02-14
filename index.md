@@ -67,8 +67,6 @@ Here you will find resources for the CPINFO-21 web dev course.
 
 ### ☑️ [Vote](https://vote.cpinfo21.codyfactory.eu)
 
-<!--
-
 ---
 
 ## Module 6: Cloud
@@ -76,6 +74,8 @@ Here you will find resources for the CPINFO-21 web dev course.
 ### 📺 [Introduction to Cloud](m6/cloud-intro)
 
 ### 👩‍🔧 [Cloud Deployment](m6/cloud-deployment)
+
+<!--
 
 ---
 
