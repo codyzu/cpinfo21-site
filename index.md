@@ -84,8 +84,6 @@ Here you will find resources for the CPINFO-21 web dev course.
 
 ## 💥 [Hackathon](/hackathon)
 
-<!--
-
 ---
 
 ## ⚔️ Soutenance
@@ -96,4 +94,3 @@ Here you will find resources for the CPINFO-21 web dev course.
 - Problems encountered
 - Comparison of the technologies with PHP, Java, C# or others
 - What would you do differently if you could do the project again?
--->
